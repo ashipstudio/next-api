@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "express": "^4.21.2",
-    "morgan": "^1.10.0",
+    "morgan": "^1.10.1",
     "next": "15.1.7",
     "nocache": "^4.0.0",
     "react": "^19.0.0",

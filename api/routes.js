@@ -12,14 +12,14 @@ router.get("/", (req, res) => {
   res.json({ message: "Hello, World!" });
 });
 
-router.use((req, res, next) => {
+router.use((req, res, _next) => {
   res.status(404).json({
     error: 404,
     message: "Not Found",
   });
 });
 
-router.use((err, req, res, next) => {
+router.use((err, req, res, _next) => {
   console.error(err.stack);
   res.status(500).json({
     error: 500,

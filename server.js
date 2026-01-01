@@ -13,7 +13,7 @@ app.prepare().then(() => {
 
   server.use("/api", apiRoutes);
 
-  server.all("*", (req, res) => {
+  server.all("*all", (req, res) => {
     return handle(req, res);
   });
 

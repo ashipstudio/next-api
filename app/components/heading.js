@@ -17,6 +17,6 @@ export default function Heading() {
   }, []);
 
   return (
-    <h1 class="text-xl">{heading}</h1>
+    <h1 className="text-xl">{heading}</h1>
   );
 }
